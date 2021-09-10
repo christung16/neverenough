@@ -5,7 +5,7 @@ terraform.tfvars.*.old
 *.old
 *.dot
 credential.py
-archive/*
-Docker/*
+archive/
+Docker/
 __pycache__
 *.pyc
