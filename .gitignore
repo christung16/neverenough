@@ -4,3 +4,8 @@ dvsuplink
 terraform.tfvars.*.old
 *.old
 *.dot
+credential.py
+archive/
+Docker/
+__pycache__
+*.pyc

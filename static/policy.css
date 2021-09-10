@@ -1,0 +1,18 @@
+.container {
+    width: 500px;
+    clear: both;
+  }
+  
+.container input {
+    width: 100%;
+    clear: both;
+  }
+
+.container select {
+    width: 100%;
+    clear: both;
+  } 
+
+.container {
+    display: inline-block;
+}
