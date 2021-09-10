@@ -1,0 +1,106 @@
+{
+  "variable": {
+    "aci_user": {
+      "type" : "map(any)",
+      "sensitive" : "true"
+    },
+    "vcenter_user": {
+      "type" : "map(any)",
+      "sensitive" : "true"
+    },
+    "fmc_user": {
+      "type" : "map(any)",
+      "sensitive" : "true"
+    },
+    "tenant": {
+      "type" : "map(any)"
+    },
+
+    "cdp": {
+      "type" : "map(any)"
+    },
+
+    "lldp": {
+      "type" : "map(any)"
+    },
+
+    "lacp": {
+      "type" : "map(any)"
+    },
+
+    "anps"  : {
+      "type" : "map(any)"
+    },
+
+    "vrfs"  : {
+      "type" : "map(any)"
+    },
+
+    "bds"  : {
+      "type" : "map(any)"
+    },
+
+    "epgs"  : {
+      "type" : "map(any)"
+    },
+
+    "static_vlan_epgs" : {
+      "type" : "map(any)"
+    },
+
+    "filters"  : {
+      "type" : "map(any)"
+    },
+
+    "contracts"  : {
+      "type" : "map(any)"
+    },
+
+    "l3outs"  : {
+      "type" : "map(any)"
+    },
+
+    "ext_epg"  : {
+      "type" : "map(any)"
+    },
+
+    "vlan_pool"  : {
+      "type" : "map(any)"
+    },
+
+    "vmm_vmware"  : {
+      "type" : "map(any)"
+    },
+
+    "phydomain"  : {
+      "type" : "map(any)"
+    },
+
+    "l3domain"  : {
+      "type" : "map(any)"
+    },
+
+    "access_port_group_policy"  : {
+      "type" : "map(any)"
+    },
+    "sg"  : {
+      "type" : "map(any)"
+    },
+    "pbr"  : {
+      "type" : "map(any)"
+    },
+
+    "vpc"  : {
+      "type" : "map(any)"
+    },
+    "esgs" : {
+      "type" :"map(any)"
+    },
+    "esg_contracts" : {
+      "type" : "map(any)"
+    },
+    "vm" : {
+      "type" : "map(any)"
+    }
+  }
+}
