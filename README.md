@@ -4,9 +4,7 @@
 DevOps Automation can streamline daily operations and eliminate the need to navigate through multiple GUI interfaces to accomplish such routine tasks as house-keeping static routes, VLANs or EPGs. 
 
 This Hackathon example is to showcase how we leverage Terraform Cloud, Webex Chatbot and Webhook programming to integrate Cisco Application Centric Infrastructure (ACI), Cisco Firepower Management Center (FMC) and Virtualized Compute infrastructure (VMware in this example) to automate end-to-end Data Center infrastructural provisoning.
-
-![image](https://user-images.githubusercontent.com/8743281/134623141-500ba1a8-7e8c-4d93-a0bf-e8dd9e3e970d.png)
-
+![image](https://user-images.githubusercontent.com/8743281/134625507-b88b4fe6-e6cc-43db-860b-579d4e7feb70.png)
 
 ## Pre-requisites
 
