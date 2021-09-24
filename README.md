@@ -4,7 +4,7 @@
 DevOps Automation can streamline daily operations and eliminate the need to navigate through multiple GUI interfaces to accomplish such routine tasks as house-keeping static routes, VLANs or EPGs. 
 
 This Hackathon example is to showcase how we leverage Terraform Cloud, Webex Chatbot and Webhook programming to integrate Cisco Application Centric Infrastructure (ACI), Cisco Firepower Management Center (FMC) and Virtualized Compute infrastructure (VMware in this example) to automate end-to-end Data Center infrastructural provisoning.
-![image](https://user-images.githubusercontent.com/8743281/134625507-b88b4fe6-e6cc-43db-860b-579d4e7feb70.png)
+![image](https://user-images.githubusercontent.com/8743281/134628271-3bb3a46a-14cb-44d8-99e3-905cf8563da2.png)
 
 ## Pre-requisites
 
@@ -51,8 +51,7 @@ Terraform files (**main.tf**, **variables.tf.json**) will be modified and pushed
 ## Step 3: Approver will be notified by Webex Chabot for review and approval
 
 A Webhook application will be notified by Terraform Cloud on the change request. This webhook will call Webex Chatbot to formulate an actionable message and post it on the webex team room for attention and follow-up. Once the approver has approved or denied the change request, the webhook will trigger Terraform to continue run or discard the change request. It will also delete the webex actionable message and post another confirmation message as record. 
-
-![image](https://user-images.githubusercontent.com/8743281/134624382-b78f55c5-9697-4a49-8796-deda1efc3f8d.png)
+![image](https://user-images.githubusercontent.com/8743281/134628207-0451a6cb-f68f-42ae-acf3-c7802dbf83c2.png)
 
 ## Installation
 
